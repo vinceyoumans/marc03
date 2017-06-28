@@ -39,10 +39,10 @@ func main() {
 	}
 
 	fmt.Println("============  about to print m ============")
-	fmt.Println(m.Feed.Title)
+	fmt.Println(m.Feed.Title.T)
 	fmt.Println("============  about to print m2 ============")
-	fmt.Println(m.Feed)
+	// fmt.Println(m.Feed)
 	fmt.Println("============  about to print m3 ============")
-	fmt.Println(m)
+	// fmt.Println(m)
 	fmt.Println("============  about to print m4 ============")
 }
